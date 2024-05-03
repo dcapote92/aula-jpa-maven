@@ -15,7 +15,7 @@
 			<property name="javax.persistence.jdbc.password" value="Cpd@506!" />
 
 			<property name="hibernate.hbm2ddl.auto" value="update" />
-			<!--https://docs.jboss.org/hibernate/orm/5.4/javadocs/org/hibernate/dialect/package-summary.html -->
+			<!--https://docs.jboss.org/hibernate/orm/6.5/javadocs/org/hibernate/dialect/package-summary.html -->
 			<property name="hibernate.dialect"
 				value="org.hibernate.dialect.MySQLDialect(800)" />
 		</properties>
