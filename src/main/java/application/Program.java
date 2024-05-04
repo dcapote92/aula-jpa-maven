@@ -21,6 +21,8 @@ public class Program {
 		em.persist(p3);
 		em.getTransaction().commit();
 		System.out.println("Done!");
+		em.close();
+		emf.close();
 	}
 
 }
