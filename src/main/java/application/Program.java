@@ -22,7 +22,9 @@ public class Program {
 //		em.getTransaction().commit();
 		
 		Person p = em.find(Person.class, 2);
-		System.out.println(p);
+		em.getTransaction().begin();
+		em.remove(p);
+		em.getTransaction().commit();
 		
 		System.out.println("Done!");
 		em.close();
